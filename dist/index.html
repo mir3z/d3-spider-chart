@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spider Chart</title>
+    <script src="main.js" defer></script>
+    <style>
+        * {
+            font-family: "Open Sans", sans-serif;
+            font-size: 12px;
+        }
+
+        .axis-line {
+            stroke-width: 1px;
+            stroke: lightgray;
+        }
+
+        .axis-line--highlighted {
+            stroke-width: 3px;
+            stroke: #000;
+        }
+
+        .axis-label {
+            font-weight: normal;
+            alignment-baseline: middle;
+            cursor: pointer;
+        }
+
+        .axis-label--highlighted {
+            font-weight: bold;
+        }
+
+        .axis-label--dim {
+            fill: lightgray;
+        }
+
+        .donut-label {
+            fill: #fff;
+        }
+
+        .level-line {
+            stroke: lightgray;
+            stroke-width: 1px;
+        }
+
+        .legend-cell__label {
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .legend-cell__symbol {
+            cursor: pointer;
+        }
+
+        .series-polygon, .series-polygon-dot {
+            cursor: pointer;
+        }
+
+        .series-polygon {
+            stroke-width: 2px;
+            fill-opacity: 0.5;
+        }
+
+        .series-value {
+            font-size: 14px;
+            font-weight: bold;
+            alignment-baseline: central;
+            text-anchor: middle;
+        }
+
+        .series-group--hidden {
+            display: none;
+        }
+
+        .line-decor {
+            stroke: #cfcfcf;
+            stroke-width: 2px;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>

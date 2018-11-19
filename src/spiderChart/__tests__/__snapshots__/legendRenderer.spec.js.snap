@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`legend renderer renders correct legend cell for each hidden series 1`] = `
+<g
+  class="legend"
+  transform="translate(50, 12)"
+>
+  <g
+    class="legend-cell"
+    transform="translate(0, 0)"
+  >
+    <text
+      alignment-baseline="central"
+      class="legend-cell__label"
+      dominant-baseline="central"
+      fill="#afafaf"
+      x="2.5em"
+    >
+      series 1
+    </text>
+    <rect
+      class="legend-cell__symbol"
+      fill="#fff"
+      height="1em"
+      stroke="#afafaf"
+      width="2em"
+      y="-0.5em"
+    />
+  </g>
+  <g
+    class="legend-cell"
+    transform="translate(0, 30)"
+  >
+    <text
+      alignment-baseline="central"
+      class="legend-cell__label"
+      dominant-baseline="central"
+      fill="#afafaf"
+      x="2.5em"
+    >
+      series 2
+    </text>
+    <line
+      class="legend-cell__symbol"
+      stroke="#afafaf"
+      stroke-width="4"
+      x1="0"
+      x2="2em"
+    />
+  </g>
+  <g
+    class="legend-cell"
+    transform="translate(0, 60)"
+  >
+    <text
+      alignment-baseline="central"
+      class="legend-cell__label"
+      dominant-baseline="central"
+      fill="#afafaf"
+      x="2.5em"
+    >
+      series 3
+    </text>
+    <circle
+      class="legend-cell__symbol"
+      cx="1em"
+      fill="#fff"
+      r="4px"
+      stroke="#afafaf"
+    />
+  </g>
+  <line
+    class="line-decor"
+    x1="0"
+    x2="300"
+    y1="-20"
+    y2="-20"
+  />
+  <line
+    class="line-decor"
+    x1="0"
+    x2="300"
+    y1="80"
+    y2="80"
+  />
+</g>
+`;
+
+exports[`legend renderer renders correct legend cell for each series 1`] = `
+<g
+  class="legend"
+  transform="translate(50, 12)"
+>
+  <g
+    class="legend-cell"
+    transform="translate(0, 0)"
+  >
+    <text
+      alignment-baseline="central"
+      class="legend-cell__label"
+      dominant-baseline="central"
+      fill="#000"
+      x="2.5em"
+    >
+      series 1
+    </text>
+    <rect
+      class="legend-cell__symbol"
+      fill="rgb(255, 0, 0)"
+      height="1em"
+      stroke="none"
+      width="2em"
+      y="-0.5em"
+    />
+  </g>
+  <g
+    class="legend-cell"
+    transform="translate(0, 30)"
+  >
+    <text
+      alignment-baseline="central"
+      class="legend-cell__label"
+      dominant-baseline="central"
+      fill="#000"
+      x="2.5em"
+    >
+      series 2
+    </text>
+    <line
+      class="legend-cell__symbol"
+      stroke="rgb(0, 255, 0)"
+      stroke-width="4"
+      x1="0"
+      x2="2em"
+    />
+  </g>
+  <g
+    class="legend-cell"
+    transform="translate(0, 60)"
+  >
+    <text
+      alignment-baseline="central"
+      class="legend-cell__label"
+      dominant-baseline="central"
+      fill="#000"
+      x="2.5em"
+    >
+      series 3
+    </text>
+    <circle
+      class="legend-cell__symbol"
+      cx="1em"
+      fill="rgb(0, 0, 255)"
+      r="4px"
+      stroke="none"
+    />
+  </g>
+  <line
+    class="line-decor"
+    x1="0"
+    x2="300"
+    y1="-20"
+    y2="-20"
+  />
+  <line
+    class="line-decor"
+    x1="0"
+    x2="300"
+    y1="80"
+    y2="80"
+  />
+</g>
+`;

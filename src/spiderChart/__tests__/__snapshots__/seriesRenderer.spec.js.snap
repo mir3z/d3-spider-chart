@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`series renderer correctly renders all series 1`] = `
+<g
+  class="series"
+>
+  <g
+    class="series-group"
+    data-series="Series 1"
+    fill="rgb(83, 198, 255)"
+  >
+    <path
+      class="series-polygon"
+      d="M0,-55.45454545454545L51.96152422706632,29.999999999999986L-55.89800333517739,32.2727272727273ZM-8.660254037844386,5.000000000000004L8.660254037844387,4.999999999999998L0,-10Z"
+      fill="rgb(83, 198, 255)"
+      stroke="none"
+    />
+  </g>
+  <g
+    class="series-group"
+    data-series="Series 2"
+    fill="rgb(0, 33, 186)"
+  >
+    <path
+      class="series-polygon"
+      d="M0,-32.72727272727273L38.183847348677524,22.045454545454533L-48.02504511895523,27.72727272727275Z"
+      fill="none"
+      stroke="rgb(0, 33, 186)"
+    />
+    <circle
+      class="series-polygon-dot"
+      cx="0"
+      cy="-32.72727272727273"
+      r="4"
+    />
+    <circle
+      class="series-polygon-dot"
+      cx="38.183847348677524"
+      cy="22.045454545454533"
+      r="4"
+    />
+    <circle
+      class="series-polygon-dot"
+      cx="-48.02504511895523"
+      cy="27.72727272727275"
+      r="4"
+    />
+  </g>
+  <g
+    class="series-group"
+    data-series="Series 3"
+    fill="rgb(255, 136, 35)"
+  >
+    <path
+      class="series-polygon"
+      d="M0,-35L51.96152422706632,29.999999999999986L-73.61215932167727,42.500000000000036Z"
+      fill="none"
+      stroke="none"
+    />
+    <circle
+      class="series-polygon-dot"
+      cx="0"
+      cy="-35"
+      r="4"
+    />
+    <circle
+      class="series-polygon-dot"
+      cx="51.96152422706632"
+      cy="29.999999999999986"
+      r="4"
+    />
+    <circle
+      class="series-polygon-dot"
+      cx="-73.61215932167727"
+      cy="42.500000000000036"
+      r="4"
+    />
+  </g>
+  <text
+    class="series-value"
+    data-axis="Statement A"
+    fill="rgb(83, 198, 255)"
+    x="0.017607981637723515"
+    y="-68.80149254456771"
+  >
+    20
+  </text>
+  <text
+    class="series-value"
+    data-axis="Statement B"
+    fill="rgb(83, 198, 255)"
+    x="63.513155160449905"
+    y="36.69009403828773"
+  >
+    22
+  </text>
+  <text
+    class="series-value"
+    data-axis="Statement C"
+    fill="rgb(83, 198, 255)"
+    x="-67.46790356226639"
+    y="38.92532809641399"
+  >
+    24
+  </text>
+</g>
+`;
+
+exports[`series renderer re-renders when data changes 1`] = `
+<g
+  class="series"
+>
+  <g
+    class="series-group"
+    data-series="Series 1"
+    fill="rgb(83, 198, 255)"
+  >
+    <path
+      class="series-polygon"
+      d="M0,-72.5L68.19950054802455,39.374999999999986L-73.61215932167727,42.500000000000036ZM-8.660254037844386,5.000000000000004L8.660254037844387,4.999999999999998L0,-10Z"
+      fill="rgb(83, 198, 255)"
+      stroke="none"
+    />
+  </g>
+</g>
+`;
